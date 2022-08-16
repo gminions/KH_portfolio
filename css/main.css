@@ -22,6 +22,9 @@ body {
     background: url(../img/main_bg.jpg) no-repeat;
 }
 
+section div{
+    cursor: pointer;
+}
 #cont1 .base {
     position: absolute;
     top: 439px;
@@ -29,7 +32,6 @@ body {
     display: block;
     width: 610px;
     height: 478px;
-    /* background-color: black;*/
 }
 
 #cont1 .click {
@@ -39,13 +41,13 @@ body {
     display: none;
 }
 
-#cont1 .cover {
+/* #cont1 .cover {
     position: absolute;
     width: 1920px;
     height: 950px;
     background-color: rgba(255, 255, 255, 0.5);
     display: none;
-}
+} */
 
 /*cont1*/
 
@@ -56,7 +58,6 @@ body {
     display: block;
     width: 542px;
     height: 598px;
-    /* background-color: black; */
 }
 
 #cont2 .click {
@@ -75,7 +76,6 @@ body {
     display: block;
     width: 625px;
     height: 371px;
-    /* background-color: black; */
 }
 
 #cont3 .click {
@@ -94,7 +94,6 @@ body {
     display: block;
     width: 540px;
     height: 333px;
-    /* background-color: black; */
 }
 
 #cont4 .click {
@@ -118,22 +117,15 @@ body {
 
 /*cont4*/
 
-#cont1 .base:hover~.cover {
-    display: none;
-}
-
-#cont1 .base:hover~.click {
+/* #cont1 .base:hover~.click {
     display: block;
 }
-
 #cont2 .base:hover~.click {
     display: block;
 }
-
 #cont3 .base:hover~.click {
     display: block;
 }
-
 #cont4 .base:hover~.click {
     display: block;
-}
+} */
