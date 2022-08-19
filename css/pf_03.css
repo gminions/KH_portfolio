@@ -17,11 +17,11 @@
 }
 .list li:last-child{margin-right: 0;}
 
-.mousehv{
+.mouse_hv{
     position: absolute;
     top: 0; left: 0;
 }
-.mousehv span{
+.mouse_hv span{
     position: absolute;
     top: 0; left: 0;
     width: 360px; height: 360px;
@@ -30,16 +30,16 @@
     transition: all 0.5s;
     opacity: 0;
 }
-.mousehv img{
+.mouse_hv img{
     position: absolute;
     top: 360px; left: 72px;
     transition: all 0.8s;
 }
 
 
-.list li:hover .mousehv span{
+.list li:hover .mouse_hv span{
     opacity: 1;
 }
-.list li:hover .mousehv img{
+.list li:hover .mouse_hv img{
     top: 120px;
 }
