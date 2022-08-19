@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>만개의레시피</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="wrap">
+        <div id="topbn">
+            <div class="pc_bn"><img src="img/topbn_pc.jpg"></div><!-- pc_bn -->
+            <div class="m_bn"><img src="img/topbn_tb.jpg"></div><!-- m_bn -->
+            <i class="fa-solid fa-xmark"></i>
+        </div><!-- topbn -->
+        <div id="mainvisual">
+            <div class="bg"><img src="img/mainvisual.jpg"></div>
+            <div class="mvin">
+                <h2>세상의 모든 요리가 이곳에</h2>
+                <span class="sh_bg"><img src="img/search.jpg"></span>
+                <label>
+                    <input type="search" id="search" placeholder="키워드를 입력하세요 #밑반찬 #손님">
+                    <a href="#">COOK</a>
+                </label>
+                <ul class="s_menu">
+                    <li><a href="#">로그인</a></li>|
+                    <li><a href="#">장바구니</a></li>|
+                    <li><a href="#">레시피등록</a></li>
+                </ul><!-- s_menu -->
+            </div><!-- mvin -->
+        </div><!-- mainvisual -->
+        <header id="header">
+            <div class="headerin">
+                <h1 class="logo"><img src="img/logo.png"></h1><!-- logo -->
+                <ul class="menu">
+                    <li class="on"><a href="#">H O T</a></li>
+                    <li><a href="#">분  류</a></li>
+                    <li><a href="#">랭  킹</a></li>
+                    <li><a href="#">이벤트</a></li>
+                </ul><!-- menu -->
+            </div><!-- headerin -->
+        </header><!-- header -->
+        <div id="container">
+            <section class="cont1">
+                <div class="list_top">
+                    <div class="list">
+                        <h3>지금 <span>HOT</span>한 레시피!</h3>
+                        <div class="box"><a href="#">
+                            <div class="photo"><img src="img/cont01_hot.jpg"></div>
+                            <p>TV레시피 [나혼자산다] #순두부열라면</p>
+                        </a></div><!-- box -->
+                    </div><!-- list -->
+                    <div class="list">
+                        <h3>만개 <span>BEST</span> 모음</h3>
+                        <div class="box"><a href="#">
+                            <div class="photo"><img src="img/cont01_best.jpg"></div>
+                            <p>여름 별미! 메밀국수 7가지 레시피!</p>
+                        </a></div><!-- box -->
+                    </div><!-- list -->
+                </div><!-- list_top -->
+                <div class="list_bottom">
+                    <div class="list">
+                        <h3>만개 추천 <span>PICK!</span></h3>
+                        <div class="box"><a href="#">
+                            <div class="photo"><img src="img/cont01_pick.jpg"></div>
+                            <p>귀찮을 때 편의점 재료로 로제크림치킨!</p>
+                        </a></div><!-- box -->
+                    </div><!-- list -->
+                    <div class="list">
+                        <h3>만개 밥상 <span>STORY</span></h3>
+                        <div class="box"><a href="#">
+                            <div class="photo"><img src="img/cont01_story.jpg"></div>
+                            <p>[제철레시피] 가을에 더 맛있는 무</p>
+                        </a></div><!-- box -->
+                    </div><!-- list -->
+                </div><!-- list_bottom -->
+            </section><!-- cont1 -->
+            <section class="cont2">
+                <h2>RECIPE CATEGORY</h2>
+                <p>오늘의 레시피를 위해 카테고리를 선택해주세요</p>
+                <div id="slider">
+                    <figure>
+                        <div class="item">
+                            <div class="shield"><img src="img/cont02_03.jpg"></div>
+                            <a href="#">종류별</a>
+                            <p>#밑반찬 #메인반찬 #국/탕 #찌개 #디저트 #면/만두 #밥/죽/떡 #김치/젓갈/장류 #양념/소스 #기타</p>
+                        </div><!-- slide_01 -->
+                        <div class="item">
+                            <div class="shield"><img src="img/cont02_02.jpg"></div>
+                            <a href="#">재료별</a>
+                            <p>#소고기 #돼지고기 #닭고기 #육류 #채소류 #해물류 #달걀/유제품 #가공식품류 #쌀 #기타</p>
+                        </div><!-- slide_02 -->
+                        <div class="item">
+                            <div class="shield"><img src="img/cont02_01.jpg"></div>
+                            <a href="#">상황별</a>
+                            <p>#일상 #초스피드 #손님접대 #술안주 #다이어트 #도시락 #영양간식 #명절 #이유식 #기타</p>
+                        </div><!-- slide_03 -->
+                        <div class="item">
+                            <div class="shield"><img src="img/cont02_04.jpg"></div>
+                            <a href="#">방법별</a>
+                            <p>#볶음 #끓이기 #부침 #조림 #무침 #비빔 #찜 #절임 #튀김 #삶기 #굽기 #데침 #기타</p>
+                        </div><!-- slide_04 -->
+                    </figure>
+                    <div class="pager">
+                        <img src="img/pager_left.png" class="prv">
+                        <img src="img/pager_right.png" class="nxt">
+                    </div><!-- pager -->
+                </div><!-- slider -->
+            </section><!-- cont2 -->
+            <section class="cont3">
+                <div class="r_main">
+                    <div class="rank_txt">
+                        <h3>주간 TOP 5</h3>
+                        <span></span>
+                        <ul class="pc_rank">
+                            <li><a href="#">1위 - 감자간장조림 (비바**님)</a></li>
+                            <li><a href="#">2위 - 오징어볶음 (ha******님)</a></li>
+                            <li><a href="#">3위 - 오이무침 (ha******님)</a></li>
+                            <li><a href="#">4위 - 닭볶음탕 (주부******님)</a></li>
+                            <li><a href="#">5위 - 잔치국수 (완소***님)</a></li>
+                        </ul><!-- rank -->
+                    </div><!-- rank_txt -->
+                    <div class="rkbox"><a href="#">
+                        <img src="img/rank_01.jpg">
+                        <span class="c_box"><p class="count">1</p></span>
+                    </a></div><!-- rkbox -->
+                </div><!-- r_main -->
+                <ul class="item_list">
+                    <li><a href="#">
+                        <div class="rkbox on">
+                            <img src="img/rank_01.jpg">
+                            <span class="c_box"><p class="count">1</p></span>
+                        </div><!-- rkbox -->
+                        <p class="m_rank">1위 - 감자간장조림 (비바**님)</p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="rkbox">
+                            <img src="img/rank_02.jpg">
+                            <span class="c_box"><p class="count">2</p></span>
+                        </div><!-- rkbox -->
+                        <p class="m_rank">2위 - 오징어볶음 (ha****님)</p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="rkbox">
+                            <img src="img/rank_03.jpg">
+                            <span class="c_box"><p class="count">3</p></span>
+                        </div><!-- rkbox -->
+                        <p class="m_rank">3위 - 오이무침 (ha****님)</p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="rkbox">
+                            <img src="img/rank_04.jpg">
+                            <span class="c_box"><p class="count">4</p></span>
+                        </div><!-- rkbox -->
+                        <p class="m_rank">4위 - 닭볶음탕 (주부****님)</p>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="rkbox">
+                            <img src="img/rank_05.jpg">
+                            <span class="c_box"><p class="count">5</p></span>
+                        </div><!-- rkbox -->
+                        <p class="m_rank">5위 - 잔치국수 (완소***님)</p>
+                    </a></li>
+                </ul><!-- item_list -->
+            </section><!-- cont3 -->
+            <section class="cont4">
+                <div class="event_txt">
+                    <h3>EVENT</h3>
+                    <a href="#">MORE</a>
+                </div><!-- event_txt -->
+                <div class="event">
+                    <a href="#"><img src="img/event_01.jpg"></a>
+                    <a href="#"><img src="img/event_02.jpg"></a>
+                    <a href="#"><img src="img/event_03.jpg"></a>
+                </div><!-- event -->
+                <div class="appdown">
+                    <p>만개의 레시피를<br>일상에서 만나보세요</p>
+                    <a href="#"><img src="img/app.png"></a>
+                </div><!-- appdown -->
+            </section><!-- cont4 -->
+        </div><!-- container -->
+        <footer id="footer">
+            <div class="footerin">
+                <ul class="fmenu">
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">광고문의</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul><!-- fmenu -->
+                <ul class="sns">
+                    <li><a href="#">페이스북</a></li>
+                    <li><a href="#">인스타그램</a></li>
+                    <li><a href="#">유튜브</a></li>
+                    <li><a href="#">블로그</a></li>
+                </ul><!-- sns -->
+                <p class="ftxt">
+                    대표: 이인경 / E: help@10000recipe.com / F: 02 - 323 - 5049 / 주소: 서울 금천구 가산동 371-50 에이스하이엔드타워 3차 1106-1호<br>
+                    문의전화: 평일 10:00 ~ 18:00 / 쇼핑문의(만개스토어) : 02 - 6953 - 4433 / 서비스 이용문의: 070 - 4896 - 6416<br>
+                    (주)이지에이치엘디 / 사업자등록번호 117-81-44101 / 통신판매업신고 제 2009-서울금천0631호 / 벤처기업확인 / 사업자정보확인 서울지방중소기업청 제 031134233-1-01643호
+                </p><!-- ftxt -->
+                <p class="copy">
+                    Copyright ©EZHLD Inc. All Rights Reserved
+                </p><!-- copy -->
+            </div><!-- footerin -->
+        </footer><!-- footer -->
+    </div><!-- wrap -->
+</body>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://kit.fontawesome.com/d01b4fb251.js" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+
+
+
+</html>

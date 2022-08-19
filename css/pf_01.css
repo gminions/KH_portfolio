@@ -1,7 +1,123 @@
-*{
-    margin: 0 auto;
-    padding: 0;
+section{
+    width: 100%; height: 100%;
+    background-color: #383838;
 }
-img{
-    vertical-align: top;
+.contin01{
+    width: 1570px; height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.contin01 img{
+    padding-top: 220px;
+}
+.contin01 .intro{
+    padding-top: 300px;
+    padding-right: 105px;
+    text-align: center;
+}
+.contin01 .tit{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.5em;
+}
+.contin01 .tit span{
+    font-size: 48px;
+    font-weight: 700;
+    color: #fbf2a2;
+}
+.contin01 .deco{
+    width: 95px; height: 3px;
+    background-color: #fff;
+    font-size: 0;
+    margin: 55px auto;
+}
+.contin01 .txt{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
+}
+/*cont01*/
+
+.contin02{
+    width: 1570px; height: 100%;
+    padding-top: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.cont_left{
+    padding-top: 220px;
+    text-align: left;
+}
+.cont_left h2{
+    font-size: 42px;
+    font-weight: 900;
+    color: #fbf2a2;
+    margin-bottom: 57px;
+}
+.progress{
+    margin-bottom: 110px;
+}
+.progress li{
+    margin-bottom: 50px;
+}
+.progress li h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+.progress li span{
+    display: block;
+    height: 12px;
+    background-color: #b8d8a7;
+    font-size: 0;
+    margin: 14px auto 10px 0;
+}
+.progress li span.pro1{width: 700px;}
+.progress li span.pro2{width: 670px;}
+.progress li span.pro3{width: 620px;}
+.progress li span.pro4{width: 700px;}
+.progress li p{
+    font-weight: 400;
+    color: #ccc;
+    font-size: 16px;
+}
+/*cont01 left*/
+
+.cont_right{
+    padding-top: 260px;
+    text-align: center;
+}
+.cont_right h2{
+    margin: 56px auto 45px;
+    font-size: 42px;
+    font-weight: 900;
+    color: #fbf2a2;
+}
+.skill_btn ul{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.skill_btn li{
+    width: 116px; height: 96px;
+    background: url(../img/about/btn.png) no-repeat center 0;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 33px;
+    font-weight: 900;
+    line-height: 75px;
+    text-align: center;
+    color: #fff;
+}
+.skill_btn li:last-child{margin-right: 0;}
+.skill_btn li:hover{
+    background-image: url(../img/about/btn_on.png);
+}
+.skill_txt{
+    margin-top: 50px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
 }

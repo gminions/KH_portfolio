@@ -1,7 +1,45 @@
-*{
-    margin: 0 auto;
-    padding: 0;
+#contents{
+    width: 1570px; height: 100%;
 }
-img{
-    vertical-align: top;
+.list{
+    position: absolute;
+    top: 50%; transform: translateY(-50%);
+    margin-top: 50px;
+}
+.list li{
+    float: left;
+    width: 360px; height: 360px;
+    overflow: hidden;
+    border: 3px solid #010101;
+    margin-right: 38px;
+    position: relative;
+    cursor: pointer;
+}
+.list li:last-child{margin-right: 0;}
+
+.mousehv{
+    position: absolute;
+    top: 0; left: 0;
+}
+.mousehv span{
+    position: absolute;
+    top: 0; left: 0;
+    width: 360px; height: 360px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid transparent;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.mousehv img{
+    position: absolute;
+    top: 360px; left: 72px;
+    transition: all 0.8s;
+}
+
+
+.list li:hover .mousehv span{
+    opacity: 1;
+}
+.list li:hover .mousehv img{
+    top: 120px;
 }

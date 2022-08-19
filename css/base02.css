@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{margin: 0 auto; padding: 0;}
+body{font-family: 'Noto Sans KR', sans-serif;}
+img{vertical-align: top;}
+ul{list-style: none;}
+a{text-decoration: none; color: inherit;}
+/*초기화*/
+
+#header{
+    width: 1920px; height: 130px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    z-index: 10;
+}
+.headerin{
+    width: 1570px; height: auto;
+    position: relative;
+}
+.logo{
+    float: left;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.menu{
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 42px;
+}
+.menu li{
+    float: left;
+    margin-left: 80px;
+    font-family: 'GmarketSansBold';
+    font-size: 18px;
+    color: #010101;
+    padding-top: 30px;
+}
+.menu li:last-child{
+    margin-right: 70px;
+}
+.menu li.on{
+    background: url(../img/menu_click.png) no-repeat center 0;
+}
+/*header*/

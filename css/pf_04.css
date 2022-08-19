@@ -1,7 +1,67 @@
-*{
-    margin: 0 auto;
-    padding: 0;
+section{
+    width: 100%; height: 100%;
+    background-color: #383838;
 }
-img{
-    vertical-align: top;
+.contin01{
+    width: 1570px; height: 100%;
+    padding-top: 210px;
+}
+.overview{
+    padding-left: 42px;
+    padding-bottom: 90px;
+}
+.overview h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: #fbf2a2;
+}
+.overview p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #Fff;
+}
+.process{
+    padding-left: 42px;
+    padding-bottom: 100px;
+}
+.process h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: #fbf2a2;
+    padding-bottom: 70px;
+}
+.process .txt{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #eee;
+}
+.process .txt p{
+    display: inline-block;
+    margin-right: 240px;
+}
+.process .txt p:last-child{
+    margin-right: 0;
+}
+
+.contin02{
+    width: 1570px; height: 950px;
+    position: relative;
+    background: url(../img/brand/brand_bg.png) no-repeat right bottom;
+}
+.contin02 .txt{
+    position: absolute;
+    top: 250px; left: 50px;
+    line-height: 2em;
+}
+.contin02 .txt p{
+    margin-top: 58px;
+    font-size: 20px;
+    color: #eee;
+}
+.contin02 .txt p span{
+    font-size: 25px;
+    color: #fbf2a2;
+    font-weight: 900;
 }
