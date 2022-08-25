@@ -112,7 +112,7 @@ section{
     color: #fff;
 }
 .skill_btn li:last-child{margin-right: 0;}
-.skill_btn li:hover{
+.skill_btn li.click{
     background-image: url(../img/about/btn_on.png);
 }
 .skill_txt{
@@ -120,4 +120,7 @@ section{
     color: #fff;
     font-size: 18px;
     font-weight: 500;
+}
+.skill_txt.click{
+    display: block;
 }
