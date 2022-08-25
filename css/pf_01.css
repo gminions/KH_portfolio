@@ -42,7 +42,7 @@ section{
 
 .contin02{
     width: 1570px; height: 100%;
-    padding-top: 80px;
+    /* padding-top: 80px; */
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
