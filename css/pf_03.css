@@ -10,7 +10,6 @@
     float: left;
     width: 360px; height: 360px;
     overflow: hidden;
-    border: 3px solid #010101;
     margin-right: 38px;
     position: relative;
     cursor: pointer;
@@ -25,7 +24,7 @@
     position: absolute;
     top: 0; left: 0;
     width: 360px; height: 360px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     border: 3px solid transparent;
     transition: all 0.5s;
     opacity: 0;
@@ -42,4 +41,89 @@
 }
 .list li:hover .mouse_hv img{
     top: 120px;
+}
+
+/*popup*/
+#popup_pt01{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    display: none;
+}
+#popup_pt01.active{display: block;}
+#popup_pt02{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    display: none;
+}
+#popup_pt02.active{display: block;}
+#popup_pt03{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    display: none;
+}
+#popup_pt03.active{display: block;}
+#popup_pt04{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    display: none;
+}
+#popup_pt04.active{display: block;}
+/*popup js*/
+
+.popup_up{
+    width: 900px; height: 700px;
+    background-color: #ddd;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    border: 4px solid #010101;
+}
+.popup_hd{
+    width: auto; height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: #e69eb6;
+    border-bottom: 4px solid #010101;
+}
+.popup_hd .ptit{
+    font-family: 'GmarketSansBold';
+    font-size: 36px;
+    color: #fdf3a2;
+    margin-left: 40px;
+    line-height: 90px;
+    cursor: Default;
+}
+.popup_hd .btn{
+    font-family: 'GmarketSansBold';
+    font-size: 26px;
+    color: #111;
+    margin-right: 40px;
+    line-height: 90px;
+    cursor: pointer;
+}
+.ptxt{
+    width: 860px; height: 580px;
+    text-align: center;
+    overflow: scroll;
+    margin-top: 18px;
+    background-color: #fff;
+}
+.modal_up .mtit{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
 }

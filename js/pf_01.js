@@ -1,13 +1,4 @@
 $(document).ready(function () {
-    //스크롤효과
-    // let winHeight = $('#section').height();
-
-    //     $(window).on('resize', function () {
-    //         winHeight = $("#section").height();
-    //     });
-
-        // $(window).on('scroll', scrollPage);
-        // scrollPage();
 
         $('#wrap section').on('mousewheel', function (e, d) {
             if (d > 0) { // 스크롤을 올렸을 때
@@ -22,42 +13,6 @@ $(document).ready(function () {
                 });
             }
         })
-
-
-
-
-
-    // $("body").swipe({
-    //     swipe: function(event, direction){
-    //         if($("#section").is(":animated")){
-    //             return
-    //         }
-    //         if(direction=="up"){
-    //             count++;
-    //             if(count>$("#section").length-1){
-    //                 count=$("#section").length-1;
-    //             }
-
-    //         }else if(direction=="down"){
-    //             count--;
-    //             if(count<0){
-    //                 count=0;
-    //             }
-
-    //         }else if(direction=="left"){
-    //         }else if(direction=="right"){   
-    //         }
-
-    //         $("#section").stop().animate({
-    //             top: -100*count+"%"
-    //         },1000)
-    //     }
-    // })
-    
-    
-
-
-
 
 
     //skill
